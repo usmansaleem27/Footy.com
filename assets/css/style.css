@@ -12,14 +12,18 @@ body{
     background-size: cover;
 }
 #home_section .home_icons i{
-    border: 1px solid var(--green);
-    color: var(--green);
+    border: 1px solid var(--success);
+    color: var(--success);
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#home_section .home_icons i:hover{
+    transform: scale(1.1);
 }
 #home_section .image_background{
     background-color: white;
