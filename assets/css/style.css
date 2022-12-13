@@ -8,7 +8,7 @@ body{
 
 
 #footy_navbar .container-fluid{
-    background-image: url(../images/box_background.jpg);
+    background-image: url(../images/box_start_image.jpg);
 }
 #home_section .home_icons i{
     border: 1px solid var(--green);
