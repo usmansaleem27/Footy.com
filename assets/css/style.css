@@ -23,3 +23,26 @@ body{
 #home_section .image_background{
     background-color: white;
 }
+
+#home_section hr{
+    border: 2px solid var(--success);
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    top: -31px;
+    z-index: -1;
+}
+#home_section .read_more a{
+    text-decoration: none;
+    color: var(--success);
+    font-weight: bold;
+}
+#home_section .read_more i{
+    color: var(--success);
+}
+#home_section .enteries_section .card{
+    transition: 0.3s ease-in-out;
+}
+#home_section .enteries_section .card:hover{
+    transform: scale(1.05);
+}
