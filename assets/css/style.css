@@ -20,7 +20,7 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 #home_section .home_icons i:hover{
     transform: scale(1.1);
