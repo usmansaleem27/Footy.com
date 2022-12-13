@@ -9,6 +9,7 @@ body{
 
 #footy_navbar .container-fluid{
     background-image: url(../images/box_start_image.jpg);
+    background-size: cover;
 }
 #home_section .home_icons i{
     border: 1px solid var(--green);
