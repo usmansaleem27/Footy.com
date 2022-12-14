@@ -1,3 +1,14 @@
+/************************************** Table of Contents  ****************************************
+
+1. Navbar Here
+2. Home Section Here
+3. Side Cards Section Here
+4. Side Cards Photo Links Section Here 
+
+************************************** Table of Ends Contents  ************************************/
+
+
+
 body {
     padding: 0;
     margin: 0;
@@ -6,11 +17,13 @@ body {
     background-color: var(--grey);
 }
 
-
+/******************************* 1.Navbar Here  **************************************/
 #footy_navbar .container-fluid {
     background-image: url(../images/box_start_image.jpg);
     background-size: cover;
 }
+
+/******************************* 2.Home Section Here  **************************************/
 
 #home_section .home_icons i {
     border: 1px solid var(--success);
@@ -59,7 +72,10 @@ body {
     transform: scale(1.05);
 }
 
-#side_first_card .card span{
+/******************************* 3. Side Cards Section Here  **************************************/
+
+
+#side_first_card .card span {
     background-color: black;
     color: white;
     padding-left: 8px;
@@ -68,21 +84,25 @@ body {
     padding-bottom: 3px;
 }
 
-#side_first_card .card p{
+#side_first_card .card p {
     border-bottom: 1px solid var(--grey);
     padding-bottom: 8px;
 }
 
-#side_first_card .card a{
+#side_first_card .card a {
     text-decoration: none;
     color: var(--yellow);
 }
 
-#photo_links a{
+/******************************* 4. Side Cards Photo Links Section Here  **************************************/
+
+
+
+#photo_links a {
     text-decoration: none;
 }
 
-#photo_links .photo_image_rounded img{
+#photo_links .photo_image_rounded img {
     position: absolute;
     right: -40px;
     margin-top: -60px;
